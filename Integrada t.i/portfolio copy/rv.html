@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Realidade virtual</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        #fundo-site {
+            position: absolute;
+            width: 100%;
+            height: 100vh; 
+            background-color: #212123;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("imagens/rv.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-attachment: fixed;
+            z-index: 1; 
+}
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="navbar">
+            <p id="lucas">Lucas Lira</p>
+            <div id="navegacao">
+                <a href="../portfolio/index.html">Home</a>
+                <a href="../curriculo/curriculo.html">Currículo</a>
+                <div class="dropdown">
+                    <a href="../portfolio/index.html">Tecnologias &#129047;</a>
+                    <div class="dropdown-content">
+                        <a href="cd.html">Ciências de Dados</a>
+                        <a href="ra.html">Realidade Aumentada</a>
+                        <a href="rv.html">Realidade Virtual</a>
+                        <a href="ia.html">Inteligência Artificial</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="index.html">Meus Trabalhos &#129047;</a>
+                    <div class="dropdown-content">
+                        <a href="../trabalhos/ch.html">Ciências Humanas</a>
+                        <a href="../trabalhos/cn.html">Ciências da Natureza</a>
+                        <a href="../trabalhos/linguagens.html">Linguagens</a>
+                        <a href="../trabalhos/matematica.html">Matemática</a>
+                        <a href="../trabalhos/ftp.html">Formação Técnica</a>
+                        <a href="../trabalhos/pa.html">Projeto do Ano</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fundo-site">
+        </div>
+        <div class="div-em-cima">
+            <p class="subtitulo">Realidade Virtual</p>
+            <p id="subsubtitulo">Imersão além dos limites, bem-vindo à sua nova realidade.</p>
+        </div>
+        <div id="apresentacao">
+            <img src="imagens/rvrv.jpg" alt="">
+            <div class="informacoes">
+                <p class="titulo">O que é Realidade Virtual?</p>
+                <p>A <span>Realidade Virtual (RV)</span> é uma tecnologia que cria um ambiente simulado, proporcionando uma experiência imersiva aos usuários. Utiliza dispositivos como óculos VR para transportar os usuários para ambientes virtuais tridimensionais.</p>
+                <br>
+                <p>É um ambiente — gerado por meio de um computador — com cenas e objetos que parecem reais, fazendo com que os usuários se sintam imersos nessa realidade. Esse ambiente é percebido através de um óculos ou capacete de Realidade Virtual.</p>
+            </div>
+        </div>
+        <div id="habilidades">
+            <p class="titulo">Elementos da Realidade Virtual</p>
+            <div id="cards">
+                <div class="card">
+                    <div class="topo">
+                        <p>Óculos de realidade virtual</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">Os óculos VR são dispositivos usados para visualizar ambientes virtuais. Eles rastreiam os movimentos da cabeça e dos olhos para proporcionar uma experiência imersiva.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topo">
+                        <p>Ambiente de simulaçao 3d</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">  A simulação 3D cria ambientes virtuais tridimensionais. Isso inclui gráficos avançados, efeitos sonoros e interações que tornam a experiência mais realista.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topo">
+                        <p>Rastreamento de Movimento</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">O rastreamento de movimento é essencial para acompanhar os movimentos do usuário no espaço virtual. Isso é feito por meio de sensores ou câmeras.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topo">
+                        <p>Diversificação dos ramos de aplicação</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">A RV é usada em diversas áreas, como jogos, treinamento, educação e terapia. Suas aplicações continuam a expandir à medida que a tecnologia evolui.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>© 2023 Lucas Lira. Todos os direitos reservados.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

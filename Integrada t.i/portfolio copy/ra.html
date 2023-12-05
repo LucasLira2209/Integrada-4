@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Realidade aumentada</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        #fundo-site {
+            position: absolute;
+            width: 100%;
+            height: 100vh; 
+            background-color: #212123;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("imagens/ra.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-attachment: fixed;
+            z-index: 1; 
+}
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="navbar">
+            <p id="lucas">Lucas Lira</p>
+            <div id="navegacao">
+                <a href="../portfolio/index.html">Home</a>
+                <a href="../curriculo/curriculo.html">Currículo</a>
+                <div class="dropdown">
+                    <a href="../portfolio/index.html">Tecnologias &#129047;</a>
+                    <div class="dropdown-content">
+                        <a href="cd.html">Ciências de Dados</a>
+                        <a href="ra.html">Realidade Aumentada</a>
+                        <a href="rv.html">Realidade Virtual</a>
+                        <a href="ia.html">Inteligência Artificial</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="index.html">Meus Trabalhos &#129047;</a>
+                    <div class="dropdown-content">
+                        <a href="../trabalhos/ch.html">Ciências Humanas</a>
+                        <a href="../trabalhos/cn.html">Ciências da Natureza</a>
+                        <a href="../trabalhos/linguagens.html">Linguagens</a>
+                        <a href="../trabalhos/matematica.html">Matemática</a>
+                        <a href="../trabalhos/ftp.html">Formação Técnica</a>
+                        <a href="../trabalhos/pa.html">Projeto do Ano</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="fundo-site">
+        </div>
+        <div class="div-em-cima">
+            <p class="subtitulo">Realidade Aumentada</p>
+            <p id="subsubtitulo">Ampliando horizontes, transformando percepções.</p>
+        </div>
+        <div id="apresentacao">
+            <img src="imagens/rara.jpg" alt="">
+            <div class="informacoes">
+                <p class="titulo">O que é Realidade Aumentada?</p>
+                <p>A <span>Realidade Aumentada (RA)</span> combina elementos virtuais com o ambiente real, oferecendo uma experiência interativa aos usuários. Diferente da Realidade Virtual, a RA não substitui o mundo real, mas melhora a percepção com sobreposições digitais.</p>
+                <br>
+                <p>A realidade aumentada é uma versão aprimorada e interativa de um ambiente real obtido por meio de elementos visuais, sonoros e outros estímulos sensoriais digitais por meio de tecnologia holográfica.</p>
+            </div>
+        </div>
+        <div id="habilidades">
+            <p class="titulo">Elementos da Realidade Aumentada</p>
+            <div id="cards">
+                <div class="card">
+                    <div class="topo">
+                        <p>Software e aplicações</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">O software de RA processa dados dos sensores e cria sobreposições digitais. Aplicações de RA variam desde jogos e entretenimento até aplicações práticas em setores como saúde e educação.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topo">
+                        <p>Interação em Tempo Real</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao"> A RA permite interações em tempo real com objetos e ambientes físicos. Isso possibilita experiências imersivas e funcionais.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topo">
+                        <p>Dispositivos de Exibição</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">Os dispositivos de exibição, como smartphones, tablets ou óculos específicos de RA, são utilizados para visualizar a sobreposição digital no mundo real.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topo">
+                        <p>Diversificação dos ramos de aplicação</p>
+                    </div>
+                    <div class="descricao-alinha">
+                        <p class="descricao">A RA é utilizada em diversas áreas, como publicidade, design, treinamento, medicina e muito mais, expandindo as possibilidades de interação e aprendizado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>© 2023 Lucas Lira. Todos os direitos reservados.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

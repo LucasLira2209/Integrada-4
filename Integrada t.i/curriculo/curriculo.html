@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Lira - Currículo</title>
+    <style>
+        /* estilização geral */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            background-color: black;
+        }
+        #content{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            height: 135vh;
+            background-color: white;
+        }
+        /* estilização lado esquerdo */
+        #esquerda{
+            width: 30%;
+            background-color: rgb(0, 0, 63);
+            color: white;
+
+        }
+        #photo{
+            display: flex;
+            justify-content: center;
+        }
+        #photo img{
+            border-radius: 500px;
+            width: 45%;
+            margin: 30px 0 15px;
+        }
+        #titulo{
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            width: 50%;
+            margin: 0 auto 15px;
+
+        }
+        hr{
+            width: 70%;
+            margin: 0 auto;
+            border-color: gray;
+        }
+        .subtitulos{
+            margin: 30px auto;
+            width: 80%;
+            font-size: 15px;
+
+        }
+        .subtitulos p{
+            font-weight: bold;
+            letter-spacing: 1.2px;
+        }
+        .textos{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color:rgb(41, 41, 85)
+        }
+        .subtitulo{
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .informacoes{
+            margin-bottom: 10px;
+        }
+        .textos, .informacoes{
+            display: flex;
+            align-items: center;
+        }
+        .textos img{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        #ultimo{
+            margin: 0;
+        }
+        #subtituloss p{
+            margin-bottom: 10px;
+        }
+        #direita{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #caixa{
+            width: 92%;
+            height: 95%;
+            margin: 20px;
+        }
+        .informativos{
+            height: 15%;
+            margin-bottom: 40px;
+        }
+        .informativos img{
+            width: 50px;
+        }
+        .flex{
+            display: flex;
+            align-items: center;
+        }
+        .flex p{
+            margin-left: 10px;
+            font-size: 27px;
+            font-weight: bold;
+            width:fit-content;
+        }
+
+        .textos-informativos{
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: justify;
+        }
+        .habilidades{
+            margin-top: 20px;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            font-size: 19px;
+            padding: 5px 10px;
+            border: 1px solid  rgb(0, 0, 63);
+            display: inline-block;
+            font-weight: bold;
+            color:  rgb(0, 0, 63);
+            border-radius: 10px;
+            margin: 5px;
+        }
+        span{
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.319);
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="esquerda">
+            <div id="photo">
+                <img src="imagens/eu.jpg" alt="">
+            </div>
+            <div id="titulo">
+                <p>Lucas Lira Santos</p>
+            </div>
+            <hr>
+            <div class="subtitulos">
+                <p class="subtitulo">Contato</p>
+                <div class="textos">
+                    <div class="informacoes">
+                        <img src="imagens/Design sem nome (5).png" alt="">
+                        <p>(11) 95296-5902</p>
+                    </div>
+                    <div class="informacoes">
+                        <img src="imagens/Design sem nome (7).png" alt="">
+                        <p>lucaslira44247@gmail.com</p>
+                    </div>
+                    <div class="informacoes" id="ultimo">
+                        <img src="imagens/Design sem nome (8).png" alt="">
+                        <p> <a href="https://www.linkedin.com/in/lucas-lira-004973236/"> linkedin.com/in/lucas-lira</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="subtitulos" id="subtituloss">
+                <p class="subtitulo">Formação</p>
+                <p>Ensino Médio Técnico - Senac Nações Unidas</p>
+                <p>UNASP - Centro Universitário Adventista de São Paulo</p>
+            </div>
+            <div class="subtitulos">
+                <p class="subtitulo">Idiomas</p>
+                <p>Inglês - Intermediário</p>
+            </div>
+        </div>
+        <div id="direita">
+            <div id="caixa">
+                <div class="informativos">
+                    <div class="flex">
+                        <img src="imagens/icon pessoa.png" alt="">
+                        <p>Apresentação</p>
+                    </div>
+                    <p class="textos-informativos">Atualmente, possuo 18 anos e estou prestes a finalizar o ensino médio e minha vida escolar. Com uma visão um pouco mais clara sobre o que eu desejo para meu futuro, enxergo para os próximos anos uma especialização na área de Inteligência Artificial.</p>
+                </div>
+                <div class="informativos">
+                    <div class="flex">
+                        <img src="imagens/icon trabalho.png" alt="">
+                        <p>Objetivos Profissionais</p>
+                    </div>
+                    <p class="textos-informativos">Como futuro formando em Tecnologia da Informação, busco um cargo na área de T.I. Procuro por uma oportunidade para desenvolver meus conhecimentos e contribuir para um crescimento mútuo entre mim e a empresa.</p>
+                </div>
+                <div class="informativos">
+                    <div class="flex">
+                        <img src="imagens/icon habilidades.png" alt="">
+                        <p>Habilidades</p>
+                    </div>
+                    <div class="habilidades">
+                        <ul>
+                            <li>Comunicação</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Resolução de problemas</li>
+                            <li>Capacidade analítica</li>
+                            <li>Informática</li>
+                            <li>Autogestão</li>
+                            <li>Mindset Ágil</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <div class="informativos">
+                    <div class="flex">
+                        <img src="imagens/icon formacao.png" alt="">
+                        <p>Formação Acadêmica - Ensino Médio Técnico</p>
+                    </div>
+                    <p class="textos-informativos">UNASP - Centro Universitário Adventista de São Paulo. <span> 2021</span></p>       
+                    <p class="textos-informativos">Centro Universitário Senac Nações Unidas. <span> 2022 - 2023</span></p>      
+                </div>
+                <div class="informativos">
+                    <div class="flex">
+                        <img src="imagens/icon experiencia.png" alt="">
+                        <p>Experiência Profissional</p>
+                    </div>
+                    <p class="textos-informativos">Embora não tenha nenhuma experiência profissional, me sinto focado em resultados promissores a longo prazo. Busco meu aperfeiçoamento em T.I. Almejo ser um programador de destaque no mercado e, na empresa que eu trabalhar, além de ser um importante funcionário, quero ser um intraempreendedor que ajude a empresa a crescer e também a se destacar no mercado </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
